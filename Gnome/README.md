@@ -4,7 +4,7 @@ Estas configurações foram realizadas ao longo do tempo através do Gnome Tweak
 
 <br>
 
-## 🛠 Preview
+## Pré-Visualização
 
 <img src="./preview/gnome_system_interface.png" alt="system-interface" style="width: 100%"/>
 
@@ -17,7 +17,7 @@ Estas configurações foram realizadas ao longo do tempo através do Gnome Tweak
 
 <br>
 
-## 🛠 Dados Técnicos
+## Informações de Configuração
 
 > Aplicativos utilizados foram:
 > - Rofi
@@ -25,7 +25,7 @@ Estas configurações foram realizadas ao longo do tempo através do Gnome Tweak
 > - Terminal do Ubuntu (pode ser configurado no Kitty)
 > - Chromium (com Vimium e AdBlock Plus)
 
-Para o terminal, foram instalados também as seguintes extensões:
+Para o terminal, foram instalados também os seguintes programas:
 
 - Git (com todo o developer tool - make, gcc, etc)
 - Neofetch

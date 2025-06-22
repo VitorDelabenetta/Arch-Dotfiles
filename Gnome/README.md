@@ -4,7 +4,7 @@ Estas configurações foram realizadas ao longo do tempo através do Gnome Tweak
 
 <br>
 
-## Pré-Visualização
+### Pré-Visualização
 
 <img src="./preview/gnome_system_interface.png" alt="system-interface" style="width: 100%"/>
 
@@ -12,12 +12,12 @@ Estas configurações foram realizadas ao longo do tempo através do Gnome Tweak
 
 <img src="./preview/neovim_configuration.png" alt="neovim-interface" style="width: 100%"/>
 
-<i>Imagem da interface do Neovim após configurações - comentar os temas do Catppuccin e descomentar os do Everforest</i>
+<i>Imagem de preview da interface do Neovim - com o tema Everforest</i>
 <br>
 
 <br>
 
-## Informações de Configuração
+### Informações de Configuração
 
 > Aplicativos utilizados foram:
 > - Rofi

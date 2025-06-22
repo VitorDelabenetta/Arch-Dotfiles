@@ -229,3 +229,16 @@ Para aplicar as configurações, apenas deve ser movido o arquivo para sua pasta
 <br>
 
 A pasta "system-folders" contém dois arquivos: o bashrc, que deve estar dentro da Home; e o arquivo do neofetch, que deve estar dentro da pasta root do sistema e em /usr/bin.
+
+<br>
+
+## Pré-Visualização
+
+<img src="./preview/terminal_preview.png" alt="system-interface" style="width: 100%">
+
+<i>Imagem de preview da interface do sistema e do terminal Kitty</i>
+
+
+<img src="./preview/neovim_configuration.png" alt="neovim-interface" style="width: 100%">
+
+<i>Imagem de preview da interface do Neovim - com o tema Catppuccin</i>

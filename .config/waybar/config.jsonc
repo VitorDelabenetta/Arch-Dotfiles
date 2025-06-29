@@ -2,10 +2,15 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "clock"],
+  "modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "clock", "custom/logout"],
+
+  "custom/logout": {
+    "format": "<span size='13000' foreground='#b4befe'>⏻ </span> Logout",
+    "on-click": "wlogout"
+  },
 
   "clock": {
-    "format": "<span foreground='#F5C2E7'>   </span>{:%a %d %H:%M}",
+    "format": "<span foreground='#F5C2E7'>  </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "calendar": {
       "mode": "month",
@@ -52,7 +57,7 @@
 
   "pulseaudio": {
       "format": "{icon}  {volume}%",
-      "format-muted": "   mute",
+      "format-muted": "  mute",
       "format-icons": {
           "default": ["", "", " "]
       },

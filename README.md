@@ -63,6 +63,7 @@ Uma vez dentro da partição, teremos que fazer a deleção de todos os "Devices
   Por fim, damos um New e pressionamos o Enter para criar uma última partição com o restante do tamanho - usada para o armazenamento.
 </blockquote>
 
+É importante criar as partições nessa ordem, para facilitar o próximo passo.\
 Tendo feito isso, vamos até a opção Write, digitamos "yes" e pressionamos o Enter. Após, podemos ir no Quit.
 
 <br>
@@ -215,10 +216,11 @@ Depois que a instalação do sistema estiver realizada e todo o básico estiver 
 1. Vá até a página inicial do repositório do projeto;
 2. Selecione a opção "<> Code";
 3. Copie o link HTTPS do projeto. Pode ser criada a configuração de uma chave SSH para melhor controle de versionamento via Git também;
-4. Escolha um local de preferência na sua máquina e execute o Git lá dentro.
+4. Escolha um local de preferência na sua máquina e execute o Git lá dentro;
 5. Clone o repositório utilizando o comando "git clone LINK", do seguinte modo:
 ```bash
-https://github.com/VitorDelabenetta/Arch-Dotfiles.git
+git clone https://github.com/VitorDelabenetta/Arch-Dotfiles.git     # utilizando https
+git clone git@github.com:VitorDelabenetta/Arch-Dotfiles.git     # utilizando ssh
 ```
 
 <br>
@@ -238,7 +240,10 @@ A pasta "system-folders" contém dois arquivos: o bashrc, que deve estar dentro 
 
 <i>Imagem de preview da interface do sistema e do terminal Kitty</i>
 
-
 <img src="./preview/neovim_configuration.png" alt="neovim-interface" style="width: 100%">
 
 <i>Imagem de preview da interface do Neovim - com o tema Catppuccin</i>
+
+<img src="./preview/wlogout_preview.png" alt="wlogout-interface" style="width: 100%">
+
+<i>Imagem de preview da interface do wlogout</i>

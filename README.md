@@ -161,9 +161,18 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 exit     #para sair do root e voltar ao terminal com cor vermelha
 umount -a
-reboot     #tirar o pendrive do boot
+reboot     #tirar o pendrive do boot primeiro
 ```
 Após esse processo, devemos conseguir entrar do sistema já instalado e logar em nosso usuário.
+
+<br>
+
+- Observação: podemos configrar também os repositórios para rodar aplicações de 32 bit em nosso sistema.
+
+```bash
+sudo vim /etc/pacman.conf
+```
+Neste arquivo, tiramos o comentário da frente do "#[multilib]" e do "#Include = /etc/pacman.d/mirrorlist", logo abaixo.
 
 <br>
 

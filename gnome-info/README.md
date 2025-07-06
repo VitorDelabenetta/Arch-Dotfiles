@@ -20,17 +20,17 @@ Estas configurações foram realizadas ao longo do tempo através do Gnome Tweak
 ### Informações de Configuração
 
 > Aplicativos utilizados foram:
-> - Rofi
-> - Nemo (explorador de arquivos)
-> - Terminal do Ubuntu (pode ser configurado no Kitty)
-> - Chromium (com Vimium e AdBlock Plus)
+> - Rofi (no Arch, utilizo o Wofi)
+> - Nautilus (explorador de arquivos)
+> - Terminal do Ubuntu (ou utilizar o Kitty, como fiz no Arch)
+> - Firefox (com Vimium e AdGuard)
 
 Para o terminal, foram instalados também os seguintes programas:
 
 - Git (com todo o developer tool - make, gcc, etc)
 - Neofetch
 - Tree, para poder ver os arquivos em árvore
-- No Arch, tenho também o <a href="https://mierak.github.io/rmpc/next/overview/" target="_blank">RMPC</a>
+- No Arch, tenho também o <a href="https://mierak.github.io/rmpc/next/overview/" target="_blank">RMPC</a>, utilizando do MPD (Music Player Daemon)
 
 As extensions instaladas no Gnome Tweaks, foram:
 

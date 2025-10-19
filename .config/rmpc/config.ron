@@ -1,3 +1,6 @@
+/*█▀█ █▀█ ▀█▀ █ █▀█ █▄ █ █▀ 
+  █▄█ █▀▀  █  █ █▄█ █ ▀█ ▄█*/
+
 #![enable(implicit_some)]
 #![enable(unwrap_newtypes)]
 #![enable(unwrap_variant_newtypes)]
@@ -114,6 +117,7 @@
       name: "Directories",
       pane: Pane(Directories),
     ),
+/* Comment Block
     (
       name: "Artists",
       pane: Pane(Artists),
@@ -122,6 +126,7 @@
       name: "Albums",
       pane: Pane(Albums),
     ),
+*/
     (
       name: "Playlists",
       pane: Pane(Playlists),

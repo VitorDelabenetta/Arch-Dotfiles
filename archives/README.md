@@ -26,20 +26,22 @@ Além de aumentar a produtividade por agilizar as operações e não gastar tant
 <br>
 
 <blockquote>
-     Linux Terminal
+    Linux Terminal
 </blockquote>
 
 ```bash
-ctrl + l: clear content
+ctrl + l: clear
 pwd: print work directory
 ls -a: list content (with hidden files)
 
+uptime -s: show the time it was booted
+
 mkdir [name]: make directory
+mkdir -p [name]/{subdirname-1,subdirname-2}: make directories and subdirectories
 touch [file.extension]: create file
 
 rm [filename]: remove file
-rm -rf [directory]: remove directory and its content
-
+rm -r [directory]: remove directory
 mv [filename] [new filename]: rename file
 mv [filename] ./directory: move file
 
@@ -49,28 +51,42 @@ mv [filename] ./directory: move file
 <br>
 
 <blockquote>
-    󰣇 Arch Linux Terminal
+    Arch Linux Terminal
 </blockquote>
 
 ```bash
 yay -P --stats: verify the data of the packages installed
 
-# Wi-Fi Configurations:
+> Wifi Configuration
 nmcli radio wifi on: set wifi on
 nmcli radio wifo off: set wifi off
 nmcli device wifi list: list available networks
 nmcli device wifi connect "SSID" password "SENHA": connects to a specific network
+# Caso não funcionar com a função acima, utilizar o seguinte:
+nmcli device wifi connect "SSID" --ask
 
-# Screen Brightness Configurations:
+> Brightnessclt
 brightnessctl s 50%: set the screen brightness at half total
 brightnessctl s +10%: elevate the brightness in 10
 brightnessctl s -10%: diminish the brightness in 10
+
+> Wf-Recorder | MPV
+sudo pacman -S wf-recorder
+sudo pacman -S mpv
+# Para realizar gravações:
+wf-recorder -f [name file].mp4 #start recording (end with ctrl + c)
+mpv [name file].mp4 #run the video
+
+> Hollow Grub
+yay -S hollow-grub
+# Select theme with:
+sudo /boot/grub/themes/hollow-grub/theme_selector.sh
 ```
 
 <br>
 
 <blockquote>
-     Neovim Commands
+    Neovim Commands
 </blockquote>
 
 ```bash
@@ -79,19 +95,22 @@ j: down
 k: up
 l: right
 
-// observação: comandos precedidos por números informam quantidades 
-(ex.: ":3x" deleta três letras)
+:Tutor (for tutorials)
+:help (for commands, instructions, errors - example ":help E37")
+
+# observação: comandos precedidos por números informam quantidades 
+# (ex.: ":3x" deleta três letras)
 
 x: delete character
-d: delete selected content
+d + w: delete selected word
 dd: delete entire line
 u: redo one delete
-
 y: yanks to clipboard
+
 o: inserts a line over the cursor
 O: inserts a line above the cursor
-
 Shift + v: select lines
+
 w: inicial of next word
 b: previous word
 e: end of next word
@@ -109,10 +128,20 @@ Ctrl + w + h: goes to the right open window
 <br>
 
 <blockquote>
-    󰍹 Vimium Commands
+    Browser Commands
 </blockquote>
 
 ```bash
+> Firefox
+alt + [left arrow]: goes to the previous page
+alt + [right arrow]: goes to the forward page
+
+ctrl + shift + page up: move tab to left
+ctrl + shift + page down: move tab to right
+
+shift + esc: firefox tabs task manager (view ressources)
+
+> Vimium
 f: open the selection options
 Shift + f: open selection, but opens in new tab
 j: goes down

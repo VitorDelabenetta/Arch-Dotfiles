@@ -193,9 +193,9 @@ ping google.com     #para testar se está conectando corretamente
 - Faremos a instalação dos nossos utilitários mais importantes:
 ```bash
 sudo pacman -S kitty     #para o terminal
-sudo pacman -S nemo     #para o explorador de arquivos
+sudo pacman -S nautilus     #para o explorador de arquivos
 sudo pacman -S nvim     #para edição de textos
-sudo pacman -S chromium     #para internet
+sudo pacman -S firefox     #para internet
 ```
 - Por fim, colocaremos a nossa DE (esse passo será diferente para o plasma, gnome e outros):
 ```bash
@@ -209,7 +209,7 @@ sudo systemctl enable --now gdm.service
 ```
 - Dentro do Desktop Environment que escolhermos, podemos estar realizando a instalação do Hyprland com o comando:
 ```bash
-sudo pacman -S hyprland
+sudo pacman -S hyprland     #se desejar, assim como eu, pode instalar apenas o hypr e o gdm (sem o gnome)
 ```
 Após instalar, podemos deslogar e fazer a seleção do Hyprland.\
 No caso do sddm ele fica na parte superior, ao lado da linguagem. No caso do gdm, podemos estar clicando no ícone de engrenagem na parte inferior direita e fazendo a seleção.

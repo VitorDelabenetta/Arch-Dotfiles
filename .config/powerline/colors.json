@@ -1,0 +1,38 @@
+// ▀█▀ █ █ █▀▀ █▀▄▀█ █▀▀
+//  █  █▀█ ██▄ █ ▀ █ ██▄
+
+
+{
+  "colors": {
+		"black": 16, //preto
+		"white": 231, //branco
+
+    "mediumgreen": 70, //verde
+		"green": 2, //verde claro
+		"darkgreen": 28, //verde escuro
+
+		"darkcyan": 74, //azul
+		"mediumcyan": 117, //azul claro
+		"darkblue": 31, //azul escuro
+		"skyblue1": 117,
+
+		"brightred": 160, //vermelho
+		"brightestred": 196, //vermelho claro
+		"mediumred": 124, //vermelho escuro
+
+		"mediumpurple": 98, //roxo
+		"brightpurple": 189, //roxo claro
+
+		"brightorange": 208, //laranja
+		"mediumorange": 166, //laranja escuro
+
+		"khaki1": 228, //amarelo
+		"yellow": 11, //amarelo claro
+
+		"gray4": 240, //cinza escuro
+		"gray6": 244, //cinza
+		"gray9": 250, //cinza claro
+
+		"gold3": 178 // dourado
+  }
+}

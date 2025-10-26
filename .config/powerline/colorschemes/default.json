@@ -1,0 +1,28 @@
+// █▀ ▀█▀ █▄█ █   █▀▀
+// ▄█  █   █  █▄▄ ██▄
+
+// See https://github.com/powerline/powerline/blob/develop/powerline/config_files/colorschemes/default.json
+
+
+{
+  "name": "default",
+  "groups": {
+      "user": { "fg": "white", "bg": "darkcyan", "attrs": ["bold"] }, //username
+      "branch": { "fg": "black", "bg": "mediumpurple", "attrs": ["bold"] }, //git
+
+      "information:regular": { "fg": "black", "bg": "green", "attrs": ["bold"] }, //current-directory
+      "cwd:current_folder": "information:regular",
+
+      "information:addicional": { "fg": "black", "bg": "gray6", "attrs": ["bold"] },
+      "information:priority": { "fg": "black", "bg": "brightorange", "attrs": ["bold"] },
+      "information:highlighted": { "fg": "yellow", "bg": "gray4", "attrs": ["bold"] },
+      
+      "warning:regular": { "fg": "black", "bg": "brightestred", "attrs": ["bold"] },
+      "critical:failure": { "fg": "black", "bg": "brightred", "attrs": ["bold"] },
+      "critical:success": { "fg": "black", "bg": "darkgreen", "attrs": ["bold"] },
+
+      "background": { "fg": "white", "bg": "gray4", "attrs": ["bold"] },
+      "background:divider": { "fg": "white", "bg": "gray4", "attrs": ["bold"] },
+      "session": { "fg": "black", "bg": "gray6", "attrs": ["bold"] }
+  }
+}

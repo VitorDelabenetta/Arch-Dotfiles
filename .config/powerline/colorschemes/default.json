@@ -1,16 +1,10 @@
-// █▀ ▀█▀ █▄█ █   █▀▀
-// ▄█  █   █  █▄▄ ██▄
-
-// See https://github.com/powerline/powerline/blob/develop/powerline/config_files/colorschemes/default.json
-
-
 {
   "name": "default",
   "groups": {
-      "user": { "fg": "white", "bg": "darkcyan", "attrs": ["bold"] }, //username
-      "branch": { "fg": "black", "bg": "mediumpurple", "attrs": ["bold"] }, //git
+      "user": { "fg": "white", "bg": "darkcyan", "attrs": ["bold"] }, 
+      "branch": { "fg": "black", "bg": "mediumpurple", "attrs": ["bold"] }, 
 
-      "information:regular": { "fg": "black", "bg": "green", "attrs": ["bold"] }, //current-directory
+      "information:regular": { "fg": "black", "bg": "green", "attrs": ["bold"] }, 
       "cwd:current_folder": "information:regular",
 
       "information:addicional": { "fg": "black", "bg": "gray6", "attrs": ["bold"] },

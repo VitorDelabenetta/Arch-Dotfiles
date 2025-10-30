@@ -1,38 +1,34 @@
-// ▀█▀ █ █ █▀▀ █▀▄▀█ █▀▀
-//  █  █▀█ ██▄ █ ▀ █ ██▄
-
-
 {
   "colors": {
-		"black": 16, //preto
-		"white": 231, //branco
+		"black": 16, 
+		"white": 231, 
 
-    "mediumgreen": 70, //verde
-		"green": 2, //verde claro
-		"darkgreen": 28, //verde escuro
+    "mediumgreen": 70, 
+		"green": 2, 
+		"darkgreen": 28, 
 
-		"darkcyan": 74, //azul
-		"mediumcyan": 117, //azul claro
-		"darkblue": 31, //azul escuro
+		"darkcyan": 74, 
+		"mediumcyan": 117, 
+		"darkblue": 31, 
 		"skyblue1": 117,
 
-		"brightred": 160, //vermelho
-		"brightestred": 196, //vermelho claro
-		"mediumred": 124, //vermelho escuro
+		"brightred": 160, 
+		"brightestred": 196, 
+		"mediumred": 124, 
 
-		"mediumpurple": 98, //roxo
-		"brightpurple": 189, //roxo claro
+		"mediumpurple": 98, 
+		"brightpurple": 189, 
 
-		"brightorange": 208, //laranja
-		"mediumorange": 166, //laranja escuro
+		"brightorange": 208, 
+		"mediumorange": 166, 
 
-		"khaki1": 228, //amarelo
-		"yellow": 11, //amarelo claro
+		"khaki1": 228, 
+		"yellow": 11, 
 
-		"gray4": 240, //cinza escuro
-		"gray6": 244, //cinza
-		"gray9": 250, //cinza claro
+		"gray4": 240,
+		"gray6": 244, 
+		"gray9": 250,
 
-		"gold3": 178 // dourado
+		"gold3": 178
   }
 }

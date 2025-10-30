@@ -253,7 +253,7 @@ A pasta "system-folders" contém dois arquivos: o bashrc, que deve estar dentro 
 
 <i>Imagem de preview da interface do Neovim - com o tema Catppuccin</i>
 
-<img src="./preview/wofi_preview.png" alt="wlogout-interface" style="width: 100%">
+<img src="./preview/wofi_preview.png" alt="wofi-interface" style="width: 100%">
 
 <i>Imagem de preview do buscador de programas Wofi</i>
 

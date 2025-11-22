@@ -14,7 +14,17 @@ window {
 
 button {
 	border-radius: 0;
-	border-color: #fab387;
+	border-color: #cba6f7;
+  /* 
+  Peach:
+  border-color: #fab387;
+
+  Mauve:
+  border-color: #cba6f7;
+
+  Lavender:
+  border-color: #b4befe;
+  */
 	text-decoration-color: #cdd6f4;
 	color: #cdd6f4;
 	background-color: #181825;
@@ -34,25 +44,25 @@ button:focus, button:active, button:hover {
 /* Icons */
 
 #lock {
-    background-image: url("./icons/peach/lock.svg");
+    background-image: url("./icons/mauve/lock.svg");
 }
 
 #logout {
-    background-image: url("./icons/peach/logout.svg");
+    background-image: url("./icons/mauve/logout.svg");
 }
 
 #suspend {
-    background-image: url("./icons/peach/suspend.svg");
+    background-image: url("./icons/mauve/suspend.svg");
 }
 
 #hibernate {
-    background-image: url("./icons/peach/hibernate.svg");
+    background-image: url("./icons/lavender/hibernate.svg");
 }
 
 #shutdown {
-    background-image: url("./icons/peach/shutdown.svg");
+    background-image: url("./icons/lavender/shutdown.svg");
 }
 
 #reboot {
-    background-image: url("./icons/peach/reboot.svg");
+    background-image: url("./icons/lavender/reboot.svg");
 }

@@ -209,7 +209,7 @@ sudo systemctl enable --now gdm.service
 ```
 - Dentro do Desktop Environment que escolhermos, podemos estar realizando a instalação do Hyprland com o comando:
 ```bash
-sudo pacman -S hyprland     #se desejar, assim como eu, pode instalar apenas o hypr e o gdm (sem o gnome)
+sudo pacman -S hyprland     #se desejar, assim como eu, pode instalar apenas o hypr e ly (display manager para acessar o sistema)
 ```
 Após instalar, podemos deslogar e fazer a seleção do Hyprland.\
 No caso do sddm ele fica na parte superior, ao lado da linguagem. No caso do gdm, podemos estar clicando no ícone de engrenagem na parte inferior direita e fazendo a seleção.

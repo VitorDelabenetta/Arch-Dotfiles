@@ -51,7 +51,7 @@
         alignment: Center,
       ),
       (
-        prop: (kind: Property(Title), default: (kind: Text("Unknown"))),
+        prop: (kind: Property(Title), default: (kind: Property(Filename))),
         width_percent: 50,
       ),
     ],
